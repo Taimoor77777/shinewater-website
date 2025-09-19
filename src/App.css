@@ -5,3 +5,7 @@
 p, a, h2, h1, h3 {
     @apply text-gray-900
 }
+
+.top-nav p{
+    color: white !important;
+}

@@ -1,6 +1,6 @@
 export default function Banner(){
     return(
-        <div className="bg-[#e72419] overflow-hidden whitespace-nowrap text-white text-[14px] ">
+        <div className="bg-[#e72419] overflow-hidden whitespace-nowrap !text-white text-[14px] top-nav " > 
             <div className="flex animate-marquee">
                 <div className="flex gap-10 px-10">
                     <p className="flex">

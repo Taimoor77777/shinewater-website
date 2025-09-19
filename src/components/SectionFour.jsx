@@ -39,10 +39,10 @@ export default function SectionFour() {
               </div>
             </button>
 
-            <button className="relative group">
+            <button className="relative group w-[60%]">
               <div className="absolute inset-0 bg-black rounded-full transform translate-x-1 translate-y-1"></div>
               <div
-                className="relative w-[60%] sm:w-auto
+                className="relative sm:w-auto
                      bg-white border-2 border-black text-black
                      px-6 sm:px-8 py-3 
                      rounded-full font-bold 

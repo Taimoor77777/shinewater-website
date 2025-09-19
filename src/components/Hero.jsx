@@ -23,7 +23,7 @@ export default function Hero() {
       </div>
 
       {/* Mango top-right */}
-      <div className="absolute top-[25%] right-[15%] sm:top-[28%] sm:right-[18%] md:top-[32%] md:right-[21%] bg-[#ff8f9f] rounded-full w-[60px] sm:w-[70px] md:w-[80px] h-[70px]">
+      <div className="absolute top-[25%] right-[15%] sm:top-[28%] sm:right-[18%] md:top-[32%] md:right-[21%] bg-[#ff8f9f] rounded-full w-[60px] sm:w-[70px] md:w-[80px] h-[60px] md:h-[70px]">
         <img src="attachment2 1.png" alt="Mango" className="relative top-[-10px] sm:top-[-15px] md:top-[-20px] w-full h-auto" />
       </div>
 
