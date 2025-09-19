@@ -3,7 +3,7 @@ export default function SectionTwo() {
     <>
     <section className="grid grid-cols-1 2xl:grid-cols-2 ">
       <div className=" relative flex flex-col justify-center items-center 2xl:items-start ml-0 2xl:ml-32 text-center 2xl:text-start  gap-6 ">
-        <div className="flex text-[22px] sm:text-[30px] md:text-[35px] justify-center 2xl:justify-start items-end gap-2 w-[100%] 2xl:w-[80%] flex-wrap font-[900] mt-28 2xl:mt-0">
+        <div className="flex text-[22px] sm:text-[30px] md:text-[35px] justify-center  2xl:justify-start items-end gap-2 w-[100%] l:w-[90%] 2xl:w-[90%] flex-wrap font-[900] mt-28 2xl:mt-0">
           <h2>SIP FOR CHANGE:</h2>
           <div className="flex flex-col items-center ">
             <img
@@ -32,7 +32,7 @@ export default function SectionTwo() {
           time.
         </p>
 
-        <div className="hidden 2xl:block absolute top-[90%] left-[18%] sm:top-[65%] sm:left-[23%] md:top-[80%] md:left-[-5%] bg-[#eb6daf] rounded-full p-1 w-[50px] sm:w-[70px] md:w-[80px]">
+        <div className="hidden 2xl:block absolute top-[90%]  left-[18%] sm:top-[65%] sm:left-[23%] md:top-[80%] 2xl:top-[86%] md:left-[-5%] bg-[#eb6daf] rounded-full p-1 w-[50px] sm:w-[70px] md:w-[80px]">
           <img
             src="strawberry full small inverted.png"
             alt="Strawberry"

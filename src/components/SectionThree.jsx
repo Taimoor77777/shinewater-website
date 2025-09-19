@@ -28,12 +28,12 @@ export default function SectionThree() {
           {/* Red shadow/background layer */}
           <div className="absolute inset-0 bg-red-500 rounded-full transform translate-x-1 translate-y-1"></div>
           {/* Main black button */}
-          <div className="relative bg-black text-white px-8 py-3 rounded-full font-bold text-lg uppercase tracking-wide hover:transform hover:-translate-x-0.5 hover:-translate-y-0.5 transition-transform duration-200">
+          <div className="relative border-2 border-black bg-black text-white px-8 py-3 rounded-full font-bold text-[12px] md:text-lg uppercase tracking-wide hover:transform hover:-translate-x-0.5 hover:-translate-y-0.5 transition-transform duration-200">
             OUR RETAILERS
           </div>
         </button>
 
-        <button className="bg-white border-4 border-black text-black px-8 py-3 rounded-full font-bold text-lg uppercase tracking-wide hover:bg-gray-50 transition-colors duration-200">
+        <button className="bg-white border-2 border-black text-black px-8 py-3 rounded-full font-bold text-[12px] md:text-lg uppercase tracking-wide hover:bg-gray-50 transition-colors duration-200">
           SHOP ONLINE
         </button>
       </div>

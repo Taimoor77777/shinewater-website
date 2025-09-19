@@ -8,12 +8,12 @@ export default function Navbar(){
         <nav className = "flex justify-between items-center px-5 md:px-10 py-4  bg-white  relative">
             <div className="w-1/3 flex items-center  ">
            
-                <div className="hidden xl:flex text-gray-700 gap-5 2xl:gap-8 justify-start">
-                    <a href="#" className="hover:text-red-500 text-[18px] 2xl:text-[20px] font-[600]">Home</a>
-                    <a href="#" className="hover:text-red-500 text-[18px] 2xl:text-[20px] font-[600]" >Products</a>
-                    <a href="#" className="hover:text-red-500 text-[18px] 2xl:text-[20px] font-[600]">Recipes</a>
-                    <a href="#" className="hover:text-red-500 text-[18px] 2xl:text-[20px] font-[600]">About Us</a>
-                    <a href="#" className="hover:text-red-500 text-[18px] 2xl:text-[20px] font-[600]">Contact</a>
+                <div className="hidden xl:flex text-gray-700 gap-5 2xl:gap-8 justify-start text-[17px] 2xl:text-[19px] font-[600]">
+                    <a href="#" className="hover:text-red-500 ">Home</a>
+                    <a href="#" className="hover:text-red-500 " >Products</a>
+                    <a href="#" className="hover:text-red-500 ">Recipes</a>
+                    <a href="#" className="hover:text-red-500 ">About Us</a>
+                    <a href="#" className="hover:text-red-500 ">Contact</a>
                 </div>
                 
                 <button 

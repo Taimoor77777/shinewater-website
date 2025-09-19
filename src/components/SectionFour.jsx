@@ -34,13 +34,13 @@ export default function SectionFour() {
               {/* Red shadow/background layer */}
               <div className="absolute inset-0 bg-red-500 rounded-full transform translate-x-1 translate-y-1"></div>
               {/* Main black button */}
-              <div className="relative bg-black text-white px-8 py-3 rounded-full font-bold text-[14px] uppercase tracking-wide hover:transform hover:-translate-x-0.5 hover:-translate-y-0.5 transition-transform duration-200">
+              <div className="relative border-2 border-black bg-black text-white px-8 py-3 rounded-full font-bold text-[12px] sm:text-[14px] uppercase tracking-wide hover:transform hover:-translate-x-0.5 hover:-translate-y-0.5 transition-transform duration-200">
                 EXPLORE OUR PRODUCTS
               </div>
             </button>
 
-            <button className="w-[65%] sm:w-auto
-                     bg-white border-4 border-black text-black
+            <button className="w-[60%] sm:w-auto
+                     bg-white border-2 border-black text-black
                      px-6 sm:px-8 py-3 
                      rounded-full font-bold 
                      text-[12px] sm:text-[14px] uppercase tracking-wide hover:bg-gray-50 transition-colors duration-200">
@@ -49,7 +49,7 @@ export default function SectionFour() {
           </div>
         </div>
       </section>
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  items-center mt-16 mb-16 ml-14 mr-14">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  items-start mt-16 mb-16 ml-14 mr-14">
         <div className="w-[80%]">
           <img src="ShineWater logo_K 1.png" alt="Logo" className="mb-10"/>
           <p className="mb-4 leading-8">
@@ -72,7 +72,7 @@ export default function SectionFour() {
         </div>
 
         <div>
-            <h2 className="font-[900] mt-[20%] md:mt-0 mb-6  ">QUICK LINKS</h2>
+            <h2 className="font-[900] mt-[20%] md:mt-[70px] mb-6  ">QUICK LINKS</h2>
             <div className="flex flex-col leading-10">
                 <a href="#">About Us</a>
                 <a href="#">Our Products</a>
@@ -81,14 +81,14 @@ export default function SectionFour() {
             </div>
         </div>
 
-        <div className="flex flex-col leading-10 mt-8 md:mt-0">
+        <div className="flex flex-col leading-10 mt-8 md:mt-[100px]">
             <p>Privacy Policy</p>
             <p>Terms & Conditions</p>
             <p>Wholesale Inquiries</p>
         </div>
 
         <div className="flex flex-col">
-            <h2 className="font-[900] mt-[20%] md:mt-0 mb-6">Newsletter Sign-Up</h2>
+            <h2 className="font-[900] mt-[20%] md:mt-[70px] mb-6">NEWSLETTER SIGN-UP</h2>
             <p className="leading-8 mb-6">Treat your inbox to some tasty deals, drops, and hydration hacks!</p>
             <EmailInput />
         </div>

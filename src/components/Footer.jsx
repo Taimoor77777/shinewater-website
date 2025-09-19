@@ -12,7 +12,7 @@ export default function Footer() {
 
         <p className="mr-auto sm:mr-0">©2025 All rights received</p>
 
-        <div className="flex mr-auto sm:ml-auto sm:mr-0 mt-6 mb-6 sm:mb-0 sm:mt-0 ">
+        <div className="flex mr-auto sm:ml-auto sm:mr-0 mt-6 mb-6 sm:mb-0 sm:mt-0 gap-4">
           <img src="Item → Img.png" alt="" />
           <img src="Item → Img (1).png" alt="" />
           <img src="Item → Img (2).png" alt="" />
