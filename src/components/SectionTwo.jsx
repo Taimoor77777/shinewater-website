@@ -32,7 +32,7 @@ export default function SectionTwo() {
           time.
         </p>
 
-        <div className="hidden 2xl:block absolute top-[90%]  left-[18%] sm:top-[65%] sm:left-[23%] md:top-[80%] 2xl:top-[86%] md:left-[-5%] bg-[#eb6daf] rounded-full p-1 w-[50px] sm:w-[70px] md:w-[80px]">
+        <div className="hidden 2xl:block absolute top-[90%]  left-[18%] sm:top-[65%] sm:left-[23%] md:top-[80%] 2xl:top-[86%] md:left-[-14%] bg-[#eb6daf] rounded-full p-1 w-[50px] sm:w-[70px] md:w-[80px]">
           <img
             src="strawberry full small inverted.png"
             alt="Strawberry"
@@ -56,7 +56,7 @@ export default function SectionTwo() {
           />
         </div>
 
-        <div className="hidden 2xl:block absolute top-[20%] left-[10%] sm:top-[22%] sm:left-[15%] md:top-[10%] md:left-[10%] bg-[#ff7e40] rounded-full w-[60px] sm:w-[80px] md:w-[80px]">
+        <div className="hidden 2xl:block absolute top-[20%] left-[10%] sm:top-[22%] sm:left-[15%] md:top-[8%] md:left-[10%] bg-[#ff7e40] rounded-full w-[60px] sm:w-[80px] md:w-[80px]">
           <img src="Mango.png" alt="Mango" className="w-full h-auto" />
         </div>
       </div>

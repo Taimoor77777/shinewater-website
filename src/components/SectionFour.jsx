@@ -39,58 +39,64 @@ export default function SectionFour() {
               </div>
             </button>
 
-            <button className="w-[60%] sm:w-auto
+            <button className="relative group">
+              <div className="absolute inset-0 bg-black rounded-full transform translate-x-1 translate-y-1"></div>
+              <div
+                className="relative w-[60%] sm:w-auto
                      bg-white border-2 border-black text-black
                      px-6 sm:px-8 py-3 
                      rounded-full font-bold 
-                     text-[12px] sm:text-[14px] uppercase tracking-wide hover:bg-gray-50 transition-colors duration-200">
-              LEARN MORE ABOUT ACTION FOR HEALTHY STUDENTS
+                     text-[12px] sm:text-[14px] uppercase tracking-wide hover:bg-gray-50 transition-colors duration-200"
+              >
+                LEARN MORE ABOUT ACTION FOR HEALTHY STUDENTS
+              </div>
             </button>
           </div>
         </div>
       </section>
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  items-start mt-16 mb-16 ml-14 mr-14">
         <div className="w-[80%]">
-          <img src="ShineWater logo_K 1.png" alt="Logo" className="mb-10"/>
+          <img src="ShineWater logo_K 1.png" alt="Logo" className="mb-10" />
           <p className="mb-4 leading-8">
             Creating delightful online shopping experiences, one theme at a
             time.
           </p>
           <div className="flex mb-4 gap-2">
             <img src="mdi-light_email-open.png" alt="" />
-            <p>
-                Support@shinewater.com
-            </p>
+            <p>Support@shinewater.com</p>
           </div>
           <div className="flex gap-2">
             <img src="ph_phone-thin.png" alt="" />
-            <p>
-                +00- 0000-000
-            </p>
+            <p>+00- 0000-000</p>
           </div>
-
         </div>
 
         <div>
-            <h2 className="font-[900] mt-[20%] md:mt-[70px] mb-6  ">QUICK LINKS</h2>
-            <div className="flex flex-col leading-10">
-                <a href="#">About Us</a>
-                <a href="#">Our Products</a>
-                <a href="#">Contact Us</a>
-                <a href="#">FAQ</a>
-            </div>
+          <h2 className="font-[900] mt-[20%] md:mt-[70px] mb-6  ">
+            QUICK LINKS
+          </h2>
+          <div className="flex flex-col leading-10">
+            <a href="#">About Us</a>
+            <a href="#">Our Products</a>
+            <a href="#">Contact Us</a>
+            <a href="#">FAQ</a>
+          </div>
         </div>
 
         <div className="flex flex-col leading-10 mt-8 md:mt-[100px]">
-            <p>Privacy Policy</p>
-            <p>Terms & Conditions</p>
-            <p>Wholesale Inquiries</p>
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
+          <p>Wholesale Inquiries</p>
         </div>
 
         <div className="flex flex-col">
-            <h2 className="font-[900] mt-[20%] md:mt-[70px] mb-6">NEWSLETTER SIGN-UP</h2>
-            <p className="leading-8 mb-6">Treat your inbox to some tasty deals, drops, and hydration hacks!</p>
-            <EmailInput />
+          <h2 className="font-[900] mt-[20%] md:mt-[70px] mb-6">
+            NEWSLETTER SIGN-UP
+          </h2>
+          <p className="leading-8 mb-6">
+            Treat your inbox to some tasty deals, drops, and hydration hacks!
+          </p>
+          <EmailInput />
         </div>
       </section>
     </>
